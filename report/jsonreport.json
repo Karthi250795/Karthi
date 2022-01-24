@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verifying adactin hotel login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel;verifying-adactin-hotel-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5958985700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on adactin hotel page",
+            "match": {
+              "location": "LoginStep.user_is_on_adactin_hotel_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183279300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter username and password",
+            "match": {
+              "location": "LoginStep.user_should_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333526300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click login button",
+            "match": {
+              "location": "LoginStep.user_should_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2911200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify succesfully login",
+            "match": {
+              "location": "LoginStep.user_should_verify_succesfully_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin hotel",
+    "description": "",
+    "id": "verifying-adactin-hotel",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
